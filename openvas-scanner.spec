@@ -70,7 +70,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES ChangeLog README COPYING
+%doc CHANGES ChangeLog README COPYING INSTALL
 %doc doc/{kb_entries.txt,nbe_file_format.txt,nsr_file_format.txt}
 %dir %{_sysconfdir}/openvas/gnupg
 %attr(755,root,root) %{_sbindir}/*
