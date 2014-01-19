@@ -22,6 +22,7 @@ BuildRequires:	doxygen
 #BuildRequires:	xmltoman
 %endif
 BuildConflicts:	openvas-libraries-devel >= 7.0
+Suggests:	nmap >= 5.51
 Requires:	openvas-common >= 6.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
